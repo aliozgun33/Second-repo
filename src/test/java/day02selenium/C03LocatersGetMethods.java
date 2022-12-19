@@ -23,5 +23,6 @@ public class C03LocatersGetMethods {
        WebElement aramaSonucYazisi = driver.findElement(By.className("a-color-state a-text-bold"));
         System.out.println(aramaSonucYazisi.getText());
         driver.close();
+        System.out.println("Aboooow");
     }
 }
