@@ -10,7 +10,7 @@ import java.time.Duration;
 
 public class C03LocatersGetMethods {
     public static void main(String[] args) {
-        System.setProperty("web driver.chrome.driver","/Users/ali/Documents/selenium libraries/drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/Users/ali/Documents/selenium libraries/drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
@@ -24,5 +24,6 @@ public class C03LocatersGetMethods {
         System.out.println(aramaSonucYazisi.getText());
         driver.close();
         System.out.println("Aboooow");
+
     }
 }
